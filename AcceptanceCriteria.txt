@@ -1,0 +1,15 @@
+//Acceptance Criteria for Login Page
+1) On providing correct username , password combination , it should take to Home page
+2) If wrong password is provided , it should not allow user to login
+3) If wrong username is provided , it should not allow user to login
+4) If multiple time wrong password is provided ,account should be locked ( maximum retry count should be present)
+5) If password is reset , should not be able to login with the old password
+6) Checking behaviour after login if different access priviledge is present to different user
+7) Checking password goes in encrypted form
+8) Sites response when multiple login are done concurrently
+9) Username Should be unique
+
+
+
+** Displaying message like Username is invalid , password is invalid is incorrect way as it makes it more prone to attackers ,
+rather the message should be user credentials are invalid

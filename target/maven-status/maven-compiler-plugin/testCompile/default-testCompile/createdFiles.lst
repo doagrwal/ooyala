@@ -1,0 +1,5 @@
+objects/HomePage.class
+config/Config.class
+objects/LoginPage.class
+tests/LoginTest.class
+methods/TestMethods.class
